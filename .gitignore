@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myvenv/
+
+# VS Code settings folder (nếu dùng VS Code)
+.vscode/
+
+# Mac OS metadata files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Environments
+.env
+.env.*
+
+# Others
+*.egg-info/
+dist/
+build/
+.eggs/
