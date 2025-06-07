@@ -19,7 +19,7 @@ def count_keywords_in_pdf(pdf_path, keywords):
 
 if __name__ == "__main__":
     # Ví dụ gọi hàm với 1 file cụ thể
-    path_pdf = "sample_pdfs/VCB_2015.pdf"  # sửa đường dẫn file PDF ở đây
+    path_pdf = "sample_pdfs/VCB_2015_1.pdf"  # sửa đường dẫn file PDF ở đây
     keyword_counts = count_keywords_in_pdf(path_pdf, keywords)
 
     print(f"Kết quả đếm từ khóa trong file {path_pdf}:")
