@@ -5,6 +5,7 @@ __pycache__/
 
 # Virtual environment
 myvenv/
+venv/
 
 # VS Code settings folder (nếu dùng VS Code)
 .vscode/
