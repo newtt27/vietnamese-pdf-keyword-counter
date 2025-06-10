@@ -27,7 +27,7 @@ def count_keywords_in_pdf(pdf_path, keywords, extract_text_by_page):
                 # for m in matches:
                 #     print(f"📌 Page {i+1} — Match: {repr(m.group(0))} at {m.start()}-{m.end()}")
 
-        print(f"✅ Total matches for '{kw}': {total_count}")
+        # print(f"✅ Total matches for '{kw}': {total_count}")
         result[kw] = {
             "count": total_count,
             "pages": match_pages
