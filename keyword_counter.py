@@ -6,7 +6,7 @@ def count_keywords_in_pdf(pdf_path, keywords, extract_text_by_page):
     result = {}
 
     for kw in keywords:
-        print(f"\n--- {kw} ---")
+        # print(f"\n--- {kw} ---")
         kw_words = kw.lower().split()
         # Tạo regex pattern tìm chính xác từ khóa với khoảng trắng linh hoạt
         pattern = r'\b' + r'\s+'.join(map(re.escape, kw_words)) + r'\b'

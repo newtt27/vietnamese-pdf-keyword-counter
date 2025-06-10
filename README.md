@@ -21,14 +21,19 @@
 ```
 
 ### MacOS:
+
 - Tạo môi trường ảo:
+
 ```bash
     python3 -m venv myvenv
 ```
+
 -Chạy môi trường ảo:
+
 ```bash
 source myvenv/bin/activate
 ```
+
 ## 2. Cài đặt Thư viện Cần Thiết
 
 - Chạy:
@@ -38,11 +43,23 @@ source myvenv/bin/activate
 ```
 
 ## 3.Cách chạy Project
+
 ### 3.1 Thay đổi dường dẫn pdf:
+
 ```bash
 path_pdf = "sample_pdfs/file_name.pdf"
 ```
+
 ### 3.2 Chạy Project:
+
+#### Windows:
+
 ```bash
 python main.py
+```
+
+#### MacOS:
+
+```bash
+python3 main.py
 ```
